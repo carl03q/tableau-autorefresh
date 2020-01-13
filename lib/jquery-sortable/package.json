@@ -28,7 +28,7 @@
   },
   "bundleDependencies": false,
   "dependencies": {
-    "jquery": "^2.1.2"
+    "jquery": "^3.4.1"
   },
   "deprecated": false,
   "description": "jquery plugin for sortable, nestable lists",
