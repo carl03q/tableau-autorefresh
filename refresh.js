@@ -36,7 +36,7 @@ function refresh() {
 // Esta función se encarga de hacer llamado a una ventana popup con el sitio definido
 // en dialog.html
 function configure() {
-  const popupUrl=`${window.location.origin}/dialog.html`;
+  const popupUrl=`${window.location.origin}/tableau-autorefresh/dialog.html`;
   let defaultPayload="";
   tableau.extensions.ui.displayDialogAsync(popupUrl, defaultPayload, { height:350, width:500 }).then((closePayload) => {
     location.reload();
