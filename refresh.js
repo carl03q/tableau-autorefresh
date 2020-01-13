@@ -11,7 +11,7 @@ function refresh() {
   var time_interval = tableau.extensions.settings.get("timeInterval");
 
   if (time_interval == undefined) {
-    time_interval = 10
+    time_interval = 120
     tableau.extensions.settings.set("timeInterval", time_interval);
   }
 
